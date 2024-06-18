@@ -1,0 +1,170 @@
+header {
+    
+    font-size: 35px;
+    text-align: left;
+    }
+    h1{
+        text-align: center;
+        font-size: 4;
+    }
+    h2{
+        text-align: center;
+    }
+    img {
+        width: 20%;
+        height: auto;
+    }
+    
+    
+    
+    body {
+        position: relative;
+    }
+    
+    /* Estilos para los círculos */
+    .circle {
+        position: absolute;
+        background-color: #6b7682; /* Tonalidad de azul */
+        border-radius: 50%;
+        opacity: 0.3; /* Opacidad para que sean sutiles */
+        z-index: -1;
+    }
+    
+    /* Definición de los círculos y sus posiciones */
+    .circle1 {
+        width: 230px; /* Tamaño del círculo */
+        height: 230px;
+        top: 0%; /* Posición vertical */
+        left: 3%; /* Posición horizontal */
+        z-index: 1;
+    }
+    
+    .circle2 {
+        width: 220px;
+        height: 220px;
+        top: 50%;
+        left: 20%;
+    }
+    
+    .circle3 {
+        width: 420px;
+        height: 420px;
+        top: 50%;
+        left: 90%;
+    }
+    
+    .circle4 {
+        width: 190px;
+        height: 190px;
+        top: 20%;
+        left: 70%;
+    }
+    
+    .circle5 {
+        width: 110px;
+        height: 110px;
+        top: 50%;
+        left: 80%;
+    }
+    .contactButton {
+        background: #7f86ea;
+        color: white;
+        font-family: inherit;
+        padding: 0.45em;
+        padding-left: 1em;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 0.9em;
+        border: none;
+        cursor: pointer;
+        letter-spacing: 0.05em;
+        display: flex;
+        align-items: center;
+        box-shadow: inset 0 0 1.6em -0.6em #714da6;
+        overflow: hidden;
+        position: relative;
+        height: 2.8em;
+        padding-right: 3em;
+      }
+      
+      .iconButton {
+        margin-left: 1em;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.2em;
+        width: 2.2em;
+        border-radius: 0.7em;
+        box-shadow: 0.1em 0.1em 0.6em 0.2em #010938;
+        right: 0.3em;
+        transition: all 0.3s;
+      }
+      
+      .contactButton:hover {
+        transform: translate(-0.05em, -0.05em);
+        box-shadow: 0.15em 0.15em #031785;
+      }
+      
+      .contactButton:active {
+        transform: translate(0.05em, 0.05em);
+        box-shadow: 0.05em 0.05em #030e4a;
+      }
+      .card {
+        padding: 20px;
+        width: 330px;
+        min-height: 370px;
+        border-radius: 20px;
+        background: #e8e8e8;
+        box-shadow: 5px 5px 6px #dadada,
+                     -5px -5px 6px #f6f6f6;
+        transition: 0.4s;
+        margin-top: 6%;
+        margin-left: 3%;
+        display: inline-block;
+      }
+      .contenedor-card {
+        display: inline-block;
+        width: 45;
+        margin-right:20px;
+              }
+      .card:hover {
+        translate: 0 -10px;
+      }
+      
+      .card-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #2e54a7;
+        margin: 15px 0 0 10px;
+      }
+      
+      .card-image {
+        min-height: 170px;
+        background-color: #c9c9c9;
+        border-radius: 15px;
+        box-shadow: inset 8px 8px 10px #c3c3c3,
+                  inset -8px -8px 10px #cfcfcf;
+      }
+      
+      .card-body {
+        margin: 13px 0 0 10px;
+        color: rgb(31, 31, 31);
+        font-size: 15px;
+      }
+      
+      .footer {
+        float: left;
+        margin: 28px 0 0 18px;
+        font-size: 13px;
+        color: #636363;
+      }
+      
+      .by-name {
+        font-weight: 700;
+      }
+      
+    img{
+      width: 100%;
+      height: 100%;
+    }
